@@ -129,18 +129,10 @@
       margin: 5px auto 0px auto;
       display: block;
     }
-  }
-  .example-wrapper .example .col,
-  .col-2,
-  .col-3,
-  .col-4,
-  .col-5,
-  .col-6,
-  .col-sm-2,
-  .col-sm-4,
-  .col-sm-8 {
-    background-color: white;
-    border: 0px;
+    .col-4 {
+      background-color: white !important;
+      border: 0px;
+    }
   }
 </style>
 
