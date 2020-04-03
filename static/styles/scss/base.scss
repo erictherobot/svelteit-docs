@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: $base-body-font-family;
+  font-size: $base-body-font-size;
+  line-height: $base-body-line-height;
+  color: $dark;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $base-heading-font-weight;
+  font-family: $base-heading-font-family;
+}
+
+main {
+  padding-top: calc(#{$topbar-height} + 40px);
+  min-height: calc(100vh - #{$topbar-height});
+  margin-bottom: 80px;
+}
+
+article a:link,
+article a:visited {
+  color: $primary;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: $primary;
+  text-decoration: underline;
+}
+
+article {
+  p {
+    margin: 15px auto;
+  }
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  // color: $dark;
+  background: lighten($primary, 45) !important;
+}
+
+::selection {
+  // color: $dark;
+  background: lighten($primary, 45) !important;
+}
+
+// .example-wrapper h3 {
+//   margin: 35px auto 0px auto;
+// }

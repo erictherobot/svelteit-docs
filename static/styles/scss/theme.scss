@@ -1,0 +1,23 @@
+:root {
+  --root-html-font-size: 16px;
+
+  --box-padding: 0.625rem;
+
+  --props-border: $light;
+  --props-devider: $code;
+  --props-types-bg: $code;
+  --props-types-border: $light;
+  --props-types-text: $hl-keyword;
+  --props-oneof-text: $hl-string;
+  --props-default-text: $light;
+
+  --hl-background: $code;
+  --hl-text: #505050;
+  --hl-comment: #8da4bc;
+  --hl-keyword: #3c87b9;
+  --hl-string: #a18851;
+  --hl-number: #76a562;
+  --hl-name: #c36031;
+  --hl-attr: #a18851;
+  --hl-builtin: #505050;
+}

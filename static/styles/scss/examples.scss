@@ -1,0 +1,33 @@
+// Examples Titles
+.content-title {
+  margin-top: 65px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: 'Heebo', sans-serif;
+  font-size: x-large;
+}
+
+// Named Anchor
+a.anchor {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
+}
+
+// Site's Side Nav
+nav .accordions {
+  padding: 10px;
+  .collapsible-header {
+    padding: 0;
+    &:last-child {
+      padding: 0;
+    }
+  }
+  .collapsible-body {
+    padding: 0;
+    &:last-child {
+      padding: 0;
+    }
+  }
+}
