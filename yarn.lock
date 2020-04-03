@@ -759,11 +759,6 @@
   dependencies:
     svelte-css-vars "0.0.1"
 
-"@erictherobot/svelteit@^1.0.0-alpha.1":
-  version "1.0.0-alpha.1"
-  resolved "https://npm.pkg.github.com/download/@erictherobot/svelteit/1.0.0-alpha.1/d89cf6c1e601c04aceacd67acc67f61271b27fca78a94c201e29addc5681210a#306673eea9053f18ea16684b3912b419ffd96eb7"
-  integrity sha512-5W2jmfK3Ahc9UnbHORwP+FnI5MEjqZzZAf/JgLJ0P6m1s8lFLC8WeTzmm/kt6FsQT5vCjPGDfJFVBGPotaZ9TA==
-
 "@polka/url@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
