@@ -39,7 +39,7 @@
   // Example Alert Default
   const example_progressbar_code = `
 <script>
-    import { ProgressBar } from '@colorfuldots/svelteit'
+  import { ProgressBar } from '@colorfuldots/svelteit'
 </\script>
 
 <ProgressBar progress={20} primary />
@@ -54,7 +54,7 @@
   // Example Alert Default
   const example_progressbar_labels_code = `
 <script>
-    import { ProgressBar } from '@colorfuldots/svelteit'
+  import { ProgressBar } from '@colorfuldots/svelteit'
 </\script>
 
 <ProgressBar progress={20} label={'20%'} primary small  />
@@ -70,7 +70,7 @@
   // Example Alert Default
   const example_progressbar_sizes_code = `
 <script>
-    import { ProgressBar } from '@colorfuldots/svelteit'
+  import { ProgressBar } from '@colorfuldots/svelteit'
 </\script>
 
 <ProgressBar progress={20} label={'$20,000 Raised'} small primary />
@@ -81,7 +81,7 @@
   // Example Alert Default
   const example_progressbar_bordered_code = `
 <script>
-    import { ProgressBar } from '@colorfuldots/svelteit'
+  import { ProgressBar } from '@colorfuldots/svelteit'
 </\script>
 
 <ProgressBar progress={60} label={'60% of the population'} warning bordered />
