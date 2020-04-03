@@ -12,7 +12,7 @@
   export let posts
 </script>
 
-<style>
+<style lang="scss">
   ul {
     margin: 0 0 1em 0;
     line-height: 1.5;
@@ -34,7 +34,6 @@
 				waiting for the 'click' event -->
       <li>
         <a rel="prefetch" href="news/{post.slug}">{post.title}</a>
-        <p>{post.date}</p>
       </li>
     {/each}
   </ul>

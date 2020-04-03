@@ -1,19 +1,15 @@
-// Ordinarily, you'd generate this data from markdown files in your
-// repo, or fetch them from a database of some kind. But in order to
-// avoid unnecessary dependencies in the starter template, and in the
-// service of obviousness, we're just going to leave it here.
-
-// This file is called `_posts.js` rather than `posts.js`, because
-// we don't want to create an `/blog/posts` route — the leading
-// underscore tells Sapper not to do that.
-
+// TODO, move this to Markdown Files
 const posts = [
   {
-    title: 'Svelteit v1.0.0-alpha.1',
-    slug: 'svelteit-v1.0.0-alpha.1',
-    date: '04-01-2020',
+    title: 'Svelteit v1.0.0-alpha.6',
+    slug: 'svelteit-v1.0.0-alpha.6',
+    date: '04-03-2020',
     html: `
-			<p>Today April, 1 2020 we launched our alpha version of Svelte<em>it</em>. Svelte<em>it</em> is a minimalistic UI/UX component framework for <a href="https://svelte.dev">Svelte</a> and <a href="https://sapper.svelte.dev">Sapper</a> projects.</p>
+      <p>Today April, 3 2020 we launched our alpha version of Svelteit. Svelteit is a minimalistic UI/UX component framework for <a href="https://svelte.dev">Svelte</a> and <a href="https://sapper.svelte.dev">Sapper</a> projects.</p>
+      
+      <p>Out of the box, we're launching with ~30 Svelteit components and plan to add more throughout our journey. Admittedly so, this is our first take on writing UI components for the open source community. We imagine this journey will be exciting at times and painful at others. For now, we're having fun!</p>
+
+      <p>Happy Coding!</p>
 		`,
   },
 ]
