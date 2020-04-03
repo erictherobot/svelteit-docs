@@ -20,6 +20,30 @@
     svelteit,
     javascript"
     />
+    <meta property="og:site_name" content="Svelteit" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Svelteit" />
+    <meta
+      property="og:description"
+      content="Svelteit is a minimalistic UI/UX component framework for Svelte and Sapper projects."
+    />
+    <meta property="og:url" content="https://docs.svelteit.dev" />
+    <meta
+      property="article:publisher"
+      content="https://www.facebook.com/erictherobot"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@erictherobot" />
+    <meta name="twitter:creator" content="@erictherobot" />
+    <meta name="twitter:title" content="Svelteit" />
+    <meta
+      name="twitter:description"
+      content="Svelteit is a minimalistic UI/UX component framework for Svelte and Sapper projects."
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/erictherobot/svelteit/master/Svelteit-github%403x.png"
+    />
     <meta name="author" content="Eric David Smith" />
     %sapper.base%
     <!-- <link rel="stylesheet" href="global.css" /> -->
@@ -29,14 +53,25 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
-    <!-- <link
-      href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Open+Sans&display=swap"
-      rel="stylesheet"
-    /> -->
     %sapper.styles% %sapper.head%
   </head>
   <body>
     <div id="svelteit" class="svelteit-wrapper">%sapper.html%</div>
     %sapper.scripts%
+
+    <!--Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-73962129-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-66917294-3')
+    </script>
   </body>
 </html>
