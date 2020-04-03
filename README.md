@@ -1,14 +1,12 @@
 # Svelte<em>it</em> Documentation
 
-Svelte<em>it</em> is a minimalistic UI/UX component framework for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
+<a align="center" href="https://docs.svelteit.dev"><img width="100%" src="./static/Svelteit-github@3x.png"></a>
+
+Svelteit is a minimalistic UI/UX component framework for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
 
 ### Why?
 
 Yes, there are many component frameworks out there today, but we wanted our own. If you like our components, use it. If you see a problem, make a pull request or fork your own and roll with it.
-
-## IMPORTANT
-
-If you're looking for the Svelte<em>it</em> project, it lives in another repository located here: [Svelteit](https://github.com/erictherobot/svelteit)
 
 ### Contributing
 
