@@ -22,23 +22,20 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/runtime": "^7.0.0",
-    "@rollup/plugin-commonjs": "^11.0.0",
+    "@erictherobot/svelteit": "1.0.0-alpha.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-replace": "^2.2.0",
     "chance": "^1.1.4",
     "node-sass": "^4.13.0",
     "npm-run-all": "^4.1.5",
-    "rollup": "^1.20.0",
+    "rollup": "^2.3.2",
     "rollup-plugin-babel": "^4.0.2",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-postcss": "^2.5.0",
-    "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-svelte": "^5.0.1",
-    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-terser": "^5.3.0",
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
-    "svelte-preprocess": "^3.2.6",
-    "@erictherobot/svelteit": "1.0.0-alpha.1"
+    "svelte-preprocess": "^3.2.6"
   }
 }
