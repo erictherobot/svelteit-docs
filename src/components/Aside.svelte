@@ -417,4 +417,5 @@
   <a href="news" />
   <a href="about" />
   <a href="custom-themes" />
+  <a href="404" />
 </nav>
