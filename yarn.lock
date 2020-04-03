@@ -752,10 +752,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@colorfuldots/svelteit@^1.0.0-alpha.2":
-  version "1.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@colorfuldots/svelteit/-/svelteit-1.0.0-alpha.2.tgz#ac5d02e2c06b707f009a16b71617142834d2d433"
-  integrity sha512-6VMbW5vIoaxlVZT0lMR3ELLCJeNjpeDI7CQIzISkVGfJ5U3q0Aja3lhaXjlKosv6VbLYmM1vU/UlCP8RSBo8jw==
+"@colorfuldots/svelteit@^1.0.0-alpha.6":
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@colorfuldots/svelteit/-/svelteit-1.0.0-alpha.6.tgz#fc9638f11afd3d36f8bc5e22f9bb6b575b0d483b"
+  integrity sha512-z/i94KkJjqgjNWejOsGIMnZ+geSDFa+5LXs7qcBiv4y2jiK8Pm+GSjmOnvtLoGVwfXkLWjnwpoVAzDXHGzjU7A==
+  dependencies:
+    svelte-css-vars "0.0.1"
+
+"@erictherobot/svelteit@^1.0.0-alpha.1":
+  version "1.0.0-alpha.1"
+  resolved "https://npm.pkg.github.com/download/@erictherobot/svelteit/1.0.0-alpha.1/d89cf6c1e601c04aceacd67acc67f61271b27fca78a94c201e29addc5681210a#306673eea9053f18ea16684b3912b419ffd96eb7"
+  integrity sha512-5W2jmfK3Ahc9UnbHORwP+FnI5MEjqZzZAf/JgLJ0P6m1s8lFLC8WeTzmm/kt6FsQT5vCjPGDfJFVBGPotaZ9TA==
 
 "@polka/url@^0.5.0":
   version "0.5.0"
@@ -3687,6 +3694,11 @@ supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
+
+svelte-css-vars@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/svelte-css-vars/-/svelte-css-vars-0.0.1.tgz#f0775a02952476a47e99ea866e64ba8d2353b9e0"
+  integrity sha512-SXsLuHvpC40H14iCRH8zp/NnY/tKGhQhmHSx31PhUNvo+Hyw7IovTnx4ICsYlg4tS7kFsYtOh5sNSdvGsY6AQA==
 
 svelte-preprocess@^3.2.6:
   version "3.7.1"
