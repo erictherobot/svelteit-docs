@@ -23,49 +23,49 @@
 
 <Container>
   <Row>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
-    <Column class="col">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
+    <Column class="col bgcolorex">col</Column>
   </Row>
   <Row>
-    <Column class="col-2">col-2</Column>
-    <Column class="col-2">col-2</Column>
-    <Column class="col-2">col-2</Column>
-    <Column class="col-2">col-2</Column>
-    <Column class="col-2">col-2</Column>
-    <Column class="col-2">col-2</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
   </Row>
   <Row>
-    <Column class="col-3">col-3</Column>
-    <Column class="col-3">col-3</Column>
-    <Column class="col-3">col-3</Column>
-    <Column class="col-3">col-3</Column>
+    <Column class="col-3 bgcolorex">col-3</Column>
+    <Column class="col-3 bgcolorex">col-3</Column>
+    <Column class="col-3 bgcolorex">col-3</Column>
+    <Column class="col-3 bgcolorex">col-3</Column>
   </Row>
   <Row>
-    <Column class="col-4">col-4</Column>
-    <Column class="col-4">col-4</Column>
-    <Column class="col-4">col-4</Column>
+    <Column class="col-4 bgcolorex">col-4</Column>
+    <Column class="col-4 bgcolorex">col-4</Column>
+    <Column class="col-4 bgcolorex">col-4</Column>
   </Row>
   <Row>
-    <Column class="col-2">col-2</Column>
-    <Column class="col-5">col-5</Column>
-    <Column class="col-5">col-5</Column>
+    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-5 bgcolorex">col-5</Column>
+    <Column class="col-5 bgcolorex">col-5</Column>
   </Row>
   <Row>
-    <Column class="col-6">col-6</Column>
-    <Column class="col-6">col-6</Column>
+    <Column class="col-6 bgcolorex">col-6</Column>
+    <Column class="col-6 bgcolorex">col-6</Column>
   </Row>
   <Row>
-    <Column class="col">col</Column>
+    <Column class="col bgcolorex">col</Column>
   </Row>
 </Container>
 `
@@ -78,14 +78,14 @@
 
 <Container>
   <Row>
-    <Column class="col">Header</Column>
+    <Column class="col bgcolorex">Header</Column>
   </Row>
   <Row>
     <Column class="col-sm-4">Side Bar</Column>
     <Column class="col-sm-8">Content</Column>
   </Row>
   <Row>
-    <Column class="col">Footer</Column>
+    <Column class="col bgcolorex">Footer</Column>
   </Row>
 </Container>
 `
@@ -98,7 +98,7 @@
 
 <Container>
   <Row>
-    <Column class="col">Header</Column>
+    <Column class="col bgcolorex">Header</Column>
   </Row>
   <Row>
     <Column class="col-sm-2">Side Bar</Column>
@@ -109,16 +109,14 @@
     </Column>
   </Row>
   <Row>
-    <Column class="col">Footer</Column>
+    <Column class="col bgcolorex">Footer</Column>
   </Row>
 </Container>
 `
 </script>
 
 <style>
-  .example-wrapper
-    .example
-    :global(.col, .col-2, .col-3, .col-4, .col-5, .col-6, .col-sm-2, .col-sm-4, .col-sm-8) {
+  :global(.bgcolorex) {
     background-color: #e5d7ff;
     border: 1px dotted #9b70ff;
     text-align: center;
@@ -138,49 +136,49 @@
   <div class="example">
     <Container>
       <Row>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
-        <Column class="col">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
+        <Column class="col bgcolorex">col</Column>
       </Row>
       <Row>
-        <Column class="col-2">col-2</Column>
-        <Column class="col-2">col-2</Column>
-        <Column class="col-2">col-2</Column>
-        <Column class="col-2">col-2</Column>
-        <Column class="col-2">col-2</Column>
-        <Column class="col-2">col-2</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
       </Row>
       <Row>
-        <Column class="col-3">col-3</Column>
-        <Column class="col-3">col-3</Column>
-        <Column class="col-3">col-3</Column>
-        <Column class="col-3">col-3</Column>
+        <Column class="col-3 bgcolorex">col-3</Column>
+        <Column class="col-3 bgcolorex">col-3</Column>
+        <Column class="col-3 bgcolorex">col-3</Column>
+        <Column class="col-3 bgcolorex">col-3</Column>
       </Row>
       <Row>
-        <Column class="col-4">col-4</Column>
-        <Column class="col-4">col-4</Column>
-        <Column class="col-4">col-4</Column>
+        <Column class="col-4 bgcolorex">col-4</Column>
+        <Column class="col-4 bgcolorex">col-4</Column>
+        <Column class="col-4 bgcolorex">col-4</Column>
       </Row>
       <Row>
-        <Column class="col-2">col-2</Column>
-        <Column class="col-5">col-5</Column>
-        <Column class="col-5">col-5</Column>
+        <Column class="col-2 bgcolorex">col-2</Column>
+        <Column class="col-5 bgcolorex">col-5</Column>
+        <Column class="col-5 bgcolorex">col-5</Column>
       </Row>
       <Row>
-        <Column class="col-6">col-6</Column>
-        <Column class="col-6">col-6</Column>
+        <Column class="col-6 bgcolorex">col-6</Column>
+        <Column class="col-6 bgcolorex">col-6</Column>
       </Row>
       <Row>
-        <Column class="col">col</Column>
+        <Column class="col bgcolorex">col</Column>
       </Row>
     </Container>
     <Prism language="markup" code={example_grid_full_code} />
@@ -194,14 +192,14 @@
   <div class="example">
     <Container>
       <Row>
-        <Column class="col">Header</Column>
+        <Column class="col bgcolorex">Header</Column>
       </Row>
       <Row>
-        <Column class="col-sm-4">Side Bar</Column>
-        <Column class="col-sm-8">Content</Column>
+        <Column class="col-sm-4 bgcolorex">Side Bar</Column>
+        <Column class="col-sm-8 bgcolorex">Content</Column>
       </Row>
       <Row>
-        <Column class="col">Footer</Column>
+        <Column class="col bgcolorex">Footer</Column>
       </Row>
     </Container>
     <Prism language="markup" code={example_grid_two_col_layout_code} />
@@ -215,18 +213,18 @@
   <div class="example">
     <Container>
       <Row>
-        <Column class="col">Header</Column>
+        <Column class="col bgcolorex">Header</Column>
       </Row>
       <Row>
-        <Column class="col-sm-2">Side Bar</Column>
-        <Column class="col-sm-8">Content</Column>
-        <Column class="col-sm-2">
+        <Column class="col-sm-2 bgcolorex">Side Bar</Column>
+        <Column class="col-sm-8 bgcolorex">Content</Column>
+        <Column class="col-sm-2 bgcolorex">
           Side Bar with long content and more things could be inside of this it
           all depends on what you want to put into this box right here.
         </Column>
       </Row>
       <Row>
-        <Column class="col">Footer</Column>
+        <Column class="col bgcolorex">Footer</Column>
       </Row>
     </Container>
     <Prism language="markup" code={example_grid_three_col_layout_code} />

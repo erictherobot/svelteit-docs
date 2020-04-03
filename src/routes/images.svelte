@@ -129,10 +129,6 @@
       margin: 5px auto 0px auto;
       display: block;
     }
-    .col-4 {
-      background-color: white !important;
-      border: 0px;
-    }
   }
 </style>
 
@@ -189,7 +185,7 @@
   <div class="example text-center">
     <Container>
       <Row>
-        <Column class="col-4">
+        <Column class="col-4 bgwhite">
           <Image
             thumbnail
             {title}
@@ -207,7 +203,7 @@
             width={null}
             linkRoute={thumbRoute} />
         </Column>
-        <Column class="col-4">
+        <Column class="col-4 bgwhite">
           <Image
             thumbnail
             {title}
