@@ -752,10 +752,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@erictherobot/svelteit@^1.0.0-alpha.1":
-  version "1.0.0-alpha.1"
-  resolved "https://npm.pkg.github.com/download/@erictherobot/svelteit/1.0.0-alpha.1/d89cf6c1e601c04aceacd67acc67f61271b27fca78a94c201e29addc5681210a#306673eea9053f18ea16684b3912b419ffd96eb7"
-  integrity sha512-5W2jmfK3Ahc9UnbHORwP+FnI5MEjqZzZAf/JgLJ0P6m1s8lFLC8WeTzmm/kt6FsQT5vCjPGDfJFVBGPotaZ9TA==
+"@colorfuldots/svelteit@^1.0.0-alpha.2":
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@colorfuldots/svelteit/-/svelteit-1.0.0-alpha.2.tgz#ac5d02e2c06b707f009a16b71617142834d2d433"
+  integrity sha512-6VMbW5vIoaxlVZT0lMR3ELLCJeNjpeDI7CQIzISkVGfJ5U3q0Aja3lhaXjlKosv6VbLYmM1vU/UlCP8RSBo8jw==
 
 "@polka/url@^0.5.0":
   version "0.5.0"
