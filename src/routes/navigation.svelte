@@ -13,7 +13,7 @@
     Pagination,
     Table,
     Tooltip,
-  } from '@erictherobot/svelteit'
+  } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -125,7 +125,7 @@
   // Example
   const example_navigation_default_code = `
 <script>
-  import { Navigation } from '@erictherobot/svelteit'
+  import { Navigation } from '@colorfuldots/svelteit'
   const navItems = [
     { title: 'Home', link: '.', segment: 'home' },
     { title: 'About', link: 'about', segment: 'about' },
@@ -139,7 +139,7 @@
   // Example
   const example_navigation_brand_code = `
 <script>
-  import { Navigation } from '@erictherobot/svelteit'
+  import { Navigation } from '@colorfuldots/svelteit'
   const navItems = [
     { title: 'Home', link: '.', segment: 'home' },
     { title: 'About', link: 'about', segment: 'about' },
@@ -153,7 +153,7 @@
   // Example
   const example_navigation_search_code = `
 <script>
-  import { Navigation } from '@erictherobot/svelteit'
+  import { Navigation } from '@colorfuldots/svelteit'
   const navItems = [
     { title: 'Home', link: '.', segment: 'home' },
     { title: 'About', link: 'about', segment: 'about' },
@@ -167,7 +167,7 @@
   // Example
   const example_navigation_breadcrumbs_code = `
 <script>
-  import { Breadcrumbs } from '@erictherobot/svelteit'
+  import { Breadcrumbs } from '@colorfuldots/svelteit'
 </\script>
 
 <Breadcrumbs list={breadcrumbs} />
@@ -180,7 +180,7 @@
   // Example
   const example_navigation_tabs_code = `
 <script>
-  import { Tabs, TabList, Tab, TabPanel } from '@erictherobot/svelteit'
+  import { Tabs, TabList, Tab, TabPanel } from '@colorfuldots/svelteit'
 </\script>
 
 <Tabs>
@@ -263,7 +263,7 @@
   // Example
   const example_navigation_pagination_code = `
 <script>
-  import { Pagination } from '@erictherobot/svelteit'
+  import { Pagination } from '@colorfuldots/svelteit'
 
   /// PAGINATION
   let rows = []
@@ -345,7 +345,7 @@
 
   const example_navigation_tooltip_code = `
 <script>
-  import { Tooltip } from '@erictherobot/svelteit'
+  import { Tooltip } from '@colorfuldots/svelteit'
 </\script>
 
 <Tooltip title="Top" body="On the top" top primary />

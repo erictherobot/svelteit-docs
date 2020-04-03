@@ -9,14 +9,14 @@
     Textarea,
     Table,
     Switch,
-  } from '@erictherobot/svelteit'
+  } from '@colorfuldots/svelteit'
 
   const propTypes = []
 
   // Example
   const example_forms_input_code = `
 <script>
-  import { Input } from '@erictherobot/svelteit'
+  import { Input } from '@colorfuldots/svelteit'
 </\script>
 
 <Input placeholder="First Name" />
@@ -26,7 +26,7 @@
   // Example
   const example_forms_input_labels_code = `
 <script>
-  import { Input } from '@erictherobot/svelteit'
+  import { Input } from '@colorfuldots/svelteit'
 </\script>
 
 <Input placeholder="First Name" label="First Name" />
@@ -36,7 +36,7 @@
   // Example
   const example_forms_input_file_code = `
 <script>
-  import { Input } from '@erictherobot/svelteit'
+  import { Input } from '@colorfuldots/svelteit'
 </\script>
 
 <Input type="file" label="Upload Resume" />
@@ -46,7 +46,7 @@
   let a = 0
   const example_forms_input_range_code = `
 <script>
-  import { Input } from '@erictherobot/svelteit'
+  import { Input } from '@colorfuldots/svelteit'
   let a = 0
 </\script>
 
@@ -57,7 +57,7 @@
   let pet = 'dog'
   const example_forms_input_bindings_code = `
 <script>
-  import { Input } from '@erictherobot/svelteit'
+  import { Input } from '@colorfuldots/svelteit'
   let pet = "dog"
 </\script>
 
@@ -68,7 +68,7 @@
   // Example
   const example_forms_select_code = `
 <script>
-  import { Select } from '@erictherobot/svelteit'
+  import { Select } from '@colorfuldots/svelteit'
 </\script>
 
 <Select>
@@ -84,7 +84,7 @@
   let numbers = ['one', 'two', 'three']
   const example_forms_select_dynamic_code = `
 <script>
-  import { Select } from '@erictherobot/svelteit'
+  import { Select } from '@colorfuldots/svelteit'
   let numbers = ['one', 'two', 'three']
 </\script>
 
@@ -101,7 +101,7 @@
   let things = ['one', 'two', 'three', 'four', 'five']
   const example_forms_select_multiple_code = `
 <script>
-  import { Select } from '@erictherobot/svelteit'
+  import { Select } from '@colorfuldots/svelteit'
   let things = ['one','two','three','four','five','six','seven','eight','nine','ten']
 </\script>
 

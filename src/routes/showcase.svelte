@@ -1,6 +1,6 @@
 <script>
   import Prism from '../components/PrismJS.svelte'
-  import { Card, Container, Row, Column } from '@erictherobot/svelteit'
+  import { Card, Container, Row, Column } from '@colorfuldots/svelteit'
   const showcaseApps = [
     {
       title: 'Svelteit Docs',

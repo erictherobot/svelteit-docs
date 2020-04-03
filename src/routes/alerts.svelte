@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Alert, Button, Table } from '@erictherobot/svelteit'
+  import { Alert, Button, Table } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -39,7 +39,7 @@
   // Example
   const example_alert_default_code = `
 <script>
-  import { Alert } from '@erictherobot/svelteit'
+  import { Alert } from '@colorfuldots/svelteit'
 </\script>
 
 <Alert>Hello, I am an alert!</Alert>
@@ -48,7 +48,7 @@
   // Example
   const example_alert_dismissible_code = `
 <script>
-  import { Alert } from '@erictherobot/svelteit'
+  import { Alert } from '@colorfuldots/svelteit'
 </\script>
 
 <Alert dismissible>Please remember to close this after you've read it!</Alert>
@@ -57,7 +57,7 @@
   // Example
   const example_alert_content_code = `
 <script>
-  import { Alert , Button} from '@erictherobot/svelteit'
+  import { Alert , Button} from '@colorfuldots/svelteit'
 </\script>
 
 <Alert dismissible success rounded>
@@ -74,7 +74,7 @@
   // Example
   const example_alert_colors_code = `
 <script>
-  import { Alert } from '@erictherobot/svelteit'
+  import { Alert } from '@colorfuldots/svelteit'
 </\script>
 
 <Alert primary dismissible>
@@ -112,7 +112,7 @@
   // Example
   const example_alert_outlined_colors_code = `
 <script>
-  import { Alert } from '@erictherobot/svelteit'
+  import { Alert } from '@colorfuldots/svelteit'
 </\script>
 
 <Alert primary dismissible outlined>

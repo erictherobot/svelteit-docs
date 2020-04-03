@@ -1,5 +1,5 @@
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 
   export let propTypes = undefined
   export let soon = undefined

@@ -2,15 +2,15 @@
   import Prism from '../components/PrismJS.svelte'
 
   const quickStartInstructions = `
-npm install -D @erictherobot/svelteit
+npm install -D @colorfuldots/svelteit
 
 # or
 
-yarn add @erictherobot/svelteit --dev`
+yarn add @colorfuldots/svelteit --dev`
 
   const quickStartInstructionsCSS = `<link rel="stylesheet" href="svelteit.min.css" />`
 
-  const quickStartInstructionsImport = `import '@erictherobot/svelteit/dist/css/svelteit.min.css'`
+  const quickStartInstructionsImport = `import '@colorfuldots/svelteit/dist/css/svelteit.min.css'`
 </script>
 
 <style lang="scss">

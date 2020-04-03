@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte'
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 
   export let language
   export let code

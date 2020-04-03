@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { List, Table } from '@erictherobot/svelteit'
+  import { List, Table } from '@colorfuldots/svelteit'
 
   let fruitsArray = ['Apple', 'Orange', 'Plum']
   let objectThings = { fruit: 'Apple', kind: 'Fuji', color: 'Red' }
@@ -27,7 +27,7 @@
   // Example List Array
   const example_list_array_code = `
 <script>
-    import { List } from '@erictherobot/svelteit'
+    import { List } from '@colorfuldots/svelteit'
     let fruitsArray = ["Apple", "Orange", "Plum"];
 </\script>
 
@@ -37,7 +37,7 @@
   // Example List Object
   const example_list_object_code = `
 <script>
-    import { List } from '@erictherobot/svelteit'
+    import { List } from '@colorfuldots/svelteit'
     let objectThings = {fruit:"Apple", kind:"Fuji", color:"Red"};
 </\script>
 

@@ -10,7 +10,7 @@
     Column,
     Button,
     Table,
-  } from '@erictherobot/svelteit'
+  } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -54,7 +54,7 @@
   // Example
   const example_card_default_code = `
 <script>
-  import { Card } from '@erictherobot/svelteit'
+  import { Card } from '@colorfuldots/svelteit'
 </\script>
 
 <Card
@@ -67,7 +67,7 @@
   // Example
   const example_card_grid_code = `
 <script>
-  import { Card, Container, Row, Column } from '@erictherobot/svelteit'
+  import { Card, Container, Row, Column } from '@colorfuldots/svelteit'
 </\script>
 
 <Container>
@@ -109,7 +109,7 @@
   let image = 'https://picsum.photos/1000/560?random=9'
   const example_card_image_code = `
 <script>
-  import { Card, Container, Row, Column } from '@erictherobot/svelteit'
+  import { Card, Container, Row, Column } from '@colorfuldots/svelteit'
   let title = 'Javascript'
   let description = 'Javascript is great'
   let image = 'https://picsum.photos/1000/560?random=9'
@@ -130,7 +130,7 @@
   let image4 = 'https://picsum.photos/500/280?random=4'
   const example_card_image_grid_code = `
 <script>
-  import { Card, Container, Row, Column } from '@erictherobot/svelteit'
+  import { Card, Container, Row, Column } from '@colorfuldots/svelteit'
   let title = 'Javascript'
   let description = 'Javascript is great'
   let image = 'https://picsum.photos/1000/560?random=9'
@@ -163,7 +163,7 @@
   // Example
   const example_card_button_code = `
 <script>
-  import { Card, Button } from '@erictherobot/svelteit'
+  import { Card, Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Card>

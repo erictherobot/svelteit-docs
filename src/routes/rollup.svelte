@@ -1,11 +1,11 @@
 <script>
   import Prism from '../components/PrismJS.svelte'
   const rollup_install = `
-npm install -D @erictherobot/svelteit
+npm install -D @colorfuldots/svelteit
 
 # or if you prefer yarn
 
-yarn add @erictherobot/svelteit --dev`
+yarn add @colorfuldots/svelteit --dev`
 </script>
 
 <svelte:head>
@@ -78,7 +78,7 @@ postcss({
     language="markup"
     code={`
 <script>
-  import '@erictherobot/svelteit/dist/css/svelteit.min.css'
+  import '@colorfuldots/svelteit/dist/css/svelteit.min.css'
 </\script>
 `} />
   <p>
@@ -104,7 +104,7 @@ postcss({
     language="markup"
     code={`
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <div>
@@ -137,7 +137,7 @@ postcss({
     language="markup"
     code={`
 <script>
-  import '@erictherobot/svelteit/dist/css/svelteit.min.css'
+  import '@colorfuldots/svelteit/dist/css/svelteit.min.css'
 </\script>
 `} />
 
@@ -162,7 +162,7 @@ postcss({
     language="markup"
     code={`
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <div>

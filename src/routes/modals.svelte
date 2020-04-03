@@ -2,7 +2,7 @@
   import Prism from '../components/PrismJS.svelte'
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
-  import { Modal, Table } from '@erictherobot/svelteit'
+  import { Modal, Table } from '@colorfuldots/svelteit'
   import Content from './Content.svelte'
 
   const propTypes = [
@@ -60,7 +60,7 @@
   // Example Alert Default
   const example_navigation_default_code = `
 <script>
-    import { Navigation } from '@erictherobot/svelteit'
+    import { Navigation } from '@colorfuldots/svelteit'
 </\script>
 
 <Modal />

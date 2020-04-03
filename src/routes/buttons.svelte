@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Button, Table } from '@erictherobot/svelteit'
+  import { Button, Table } from '@colorfuldots/svelteit'
 
   let example_button_default_title = 'Default'
   let example_button_disabled_title = 'Disabled'
@@ -70,7 +70,7 @@
   // Example Button Default
   const example_button_default_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
   let title = 'Default'
 </\script>
 
@@ -80,7 +80,7 @@
   // Example Button Disabled
   const example_button_disabled_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
   let title = 'Disabled'
 </\script>
 
@@ -90,7 +90,7 @@
   // Example Button Solid
   const example_button_solid_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Button title={'Primary'} primary />
@@ -106,7 +106,7 @@
   // Example Button Outlined
   const example_button_outlined_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Button title={'Primary'} primary outlined />
@@ -122,7 +122,7 @@
   // Example Button Outlined
   const example_button_sizes_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Button title={'Small'} primary small />
@@ -137,7 +137,7 @@
   // Example Button Outlined
   const example_button_rounded_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Button title={'Small'} primary rounded />
@@ -152,7 +152,7 @@
   // Example Button Outlined
   const example_button_block_code = `
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Button title={'Small'} primary block />

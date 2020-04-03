@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -61,7 +61,7 @@
   // Example Table Borderless
   const example_table_borderless_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table borderless>
@@ -90,7 +90,7 @@
   // Example Table Bordered
   const example_table_bordered_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table bordered>
@@ -119,7 +119,7 @@
   // Example Table Bordered & Rounded
   const example_table_bordered_rounded_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table bordered rounded>
@@ -148,7 +148,7 @@
   // Example Table Hoverable
   const example_table_hoverable_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table hoverable>
@@ -187,7 +187,7 @@
   // Example Table Striped
   const example_table_striped_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table striped>
@@ -235,7 +235,7 @@
   // Example Table Colors
   const example_table_colors_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table primary>
@@ -264,7 +264,7 @@
   // Example Table Responsive
   const example_table_responsive_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table success responsive>
@@ -303,7 +303,7 @@
   // Example Table Kitchen Sink
   const example_table_kitchen_sink_code = `
 <script>
-  import { Table } from '@erictherobot/svelteit'
+  import { Table } from '@colorfuldots/svelteit'
 </\script>
 
 <Table dark hoverable bordered rounded>

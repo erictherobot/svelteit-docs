@@ -1,13 +1,13 @@
 <script>
   import Prism from '../components/PrismJS.svelte'
-  import { Navigation, Table } from '@erictherobot/svelteit'
+  import { Navigation, Table } from '@colorfuldots/svelteit'
 
   const propTypes = []
 
   // Example Alert Default
   const example_navigation_default_code = `
 <script>
-    import { Navigation } from '@erictherobot/svelteit'
+    import { Navigation } from '@colorfuldots/svelteit'
 </\script>
 
 <Navigation />

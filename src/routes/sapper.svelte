@@ -1,11 +1,11 @@
 <script>
   import Prism from '../components/PrismJS.svelte'
   const rollup_install = `
-npm install -D @erictherobot/svelteit
+npm install -D @colorfuldots/svelteit
 
 # or if you prefer yarn
 
-yarn add @erictherobot/svelteit --dev`
+yarn add @colorfuldots/svelteit --dev`
 </script>
 
 <svelte:head>
@@ -80,7 +80,7 @@ svelte({
     language="markup"
     code={`
 <script>
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
 </\script>
 
 <Button

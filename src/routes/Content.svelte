@@ -2,7 +2,7 @@
   import { getContext } from 'svelte'
   import { fly } from 'svelte/transition'
 
-  import { Button } from '@erictherobot/svelteit'
+  import { Button } from '@colorfuldots/svelteit'
   import Popup from './Popup.svelte'
   import PopupLong from './PopupLong.svelte'
   import Dialog from './Dialog.svelte'

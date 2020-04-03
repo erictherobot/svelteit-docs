@@ -2,7 +2,7 @@
   import Header from '../components/Header.svelte'
   import Footer from '../components/Footer.svelte'
   import Aside from '../components/Aside.svelte'
-  import { Container, Row, Column } from '@erictherobot/svelteit'
+  import { Container, Row, Column } from '@colorfuldots/svelteit'
   export let segment
 </script>
 

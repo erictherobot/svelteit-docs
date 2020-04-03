@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Container, Row, Column, Table } from '@erictherobot/svelteit'
+  import { Container, Row, Column, Table } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -18,7 +18,7 @@
   // Example Alert Default
   const example_grid_full_code = `
 <script>
-  import { Container, Row, Column } from '@erictherobot/svelteit'
+  import { Container, Row, Column } from '@colorfuldots/svelteit'
 </\script>
 
 <Container>
@@ -73,7 +73,7 @@
   // Example Alert Default
   const example_grid_two_col_layout_code = `
 <script>
-  import { Container, Row, Column } from '@erictherobot/svelteit'
+  import { Container, Row, Column } from '@colorfuldots/svelteit'
 </\script>
 
 <Container>
@@ -93,7 +93,7 @@
   // Example Alert Default
   const example_grid_three_col_layout_code = `
 <script>
-  import { Container, Row, Column } from '@erictherobot/svelteit'
+  import { Container, Row, Column } from '@colorfuldots/svelteit'
 </\script>
 
 <Container>

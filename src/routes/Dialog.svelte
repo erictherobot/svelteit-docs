@@ -1,5 +1,5 @@
 <script>
-  import { Button, Input } from '@erictherobot/svelteit'
+  import { Button, Input } from '@colorfuldots/svelteit'
 
   import { getContext } from 'svelte'
   export let message

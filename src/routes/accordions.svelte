@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Accordions, Accordion } from '@erictherobot/svelteit'
+  import { Accordions, Accordion } from '@colorfuldots/svelteit'
 
   // current item selection
   let selectionID
@@ -74,7 +74,7 @@
   // Examples
   const example_accordions_solid_code = `
 <script>
-  import { Accordions, Accordion } from '@erictherobot/svelteit'
+  import { Accordions, Accordion } from '@colorfuldots/svelteit'
 
   // current item selection
   let selectionID
@@ -210,7 +210,7 @@
   // Examples
   const example_accordions_outlined_code = `
 <script>
-  import { Accordions, Accordion } from '@erictherobot/svelteit'
+  import { Accordions, Accordion } from '@colorfuldots/svelteit'
 
   // current item selection
   let selectionID

@@ -1,5 +1,5 @@
 <script>
-  import { Image, Container, Column, Row } from '@erictherobot/svelteit'
+  import { Image, Container, Column, Row } from '@colorfuldots/svelteit'
   import Prism from '../components/PrismJS.svelte'
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
@@ -50,7 +50,7 @@
   // Example
   const example_image_hero_code = `
 <script>
-  import { Image } from '@erictherobot/svelteit'
+  import { Image } from '@colorfuldots/svelteit'
   let title = "We Are All Heroes"
   let description = "Just look around..."
   let height = 500
@@ -68,7 +68,7 @@
   // Example
   const example_image_hero_button_code = `
 <script>
-  import { Image } from '@erictherobot/svelteit'
+  import { Image } from '@colorfuldots/svelteit'
   let title = "We Are All Heroes"
   let description = "Just look around..."
   let buttonTitle = "Click Me"
@@ -90,7 +90,7 @@
   // Example
   const example_image_thumbnail_code = `
 <script>
-  import { Image } from '@erictherobot/svelteit'
+  import { Image } from '@colorfuldots/svelteit'
   let title = "Some Other Image"
   let thumbRoute = 'javascript:void(0);'
 </\script>

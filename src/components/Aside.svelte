@@ -1,6 +1,6 @@
 <script>
   export let segment
-  import { Button, Accordions, Accordion } from '@erictherobot/svelteit'
+  import { Button, Accordions, Accordion } from '@colorfuldots/svelteit'
 
   const asideNavWelcome = [
     {

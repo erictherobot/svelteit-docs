@@ -1,5 +1,5 @@
 <script>
-  import { Pagination } from '@erictherobot/svelteit'
+  import { Pagination } from '@colorfuldots/svelteit'
   import { fly } from 'svelte/transition'
   import fetchData from '../data'
   let rows = []

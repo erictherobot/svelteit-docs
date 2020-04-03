@@ -3,7 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Typography, Badge } from '@erictherobot/svelteit'
+  import { Typography, Badge } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -61,7 +61,7 @@
   // Example
   const example_typography_heading_code = `
 <script>
-  import { Typography } from '@erictherobot/svelteit'
+  import { Typography } from '@colorfuldots/svelteit'
 </\script>
 
 <Typography h1 title="Heading h1" />
@@ -75,7 +75,7 @@
   // Example
   const example_typography_paragraph_code = `
 <script>
-  import { Typography } from '@erictherobot/svelteit'
+  import { Typography } from '@colorfuldots/svelteit'
 </\script>
 
 <Typography
@@ -86,7 +86,7 @@
   // Example
   const example_label_code = `
 <script>
-  import { Badge } from '@erictherobot/svelteit'
+  import { Badge } from '@colorfuldots/svelteit'
 </\script>
 
 <Badge label="Exciting" primary />
@@ -102,7 +102,7 @@
   // Example
   const example_label_outlined_code = `
 <script>
-  import { Badge } from '@erictherobot/svelteit'
+  import { Badge } from '@colorfuldots/svelteit'
 </\script>
 
 <Badge label="Exciting" primary outlined />
@@ -118,7 +118,7 @@
   // Example
   const example_badge_code = `
 <script>
-  import { Badge } from '@erictherobot/svelteit'
+  import { Badge } from '@colorfuldots/svelteit'
 </\script>
 
 <Badge badge={10} primary />
@@ -134,7 +134,7 @@
   // Example
   const example_badge_outlined_code = `
 <script>
-  import { Badge } from '@erictherobot/svelteit'
+  import { Badge } from '@colorfuldots/svelteit'
 </\script>
 
 <Badge badge={10} primary outlined />
