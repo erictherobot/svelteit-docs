@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://docs.svelteit.dev/</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/.</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/alerts</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/accordions</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/buttons</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/cards</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/forms</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/images</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/layouts</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/lists</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/modals</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/navigation</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/progress-bars</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/tables</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/typography</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/showcase</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/sapper</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/svelte</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/webpack</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/rollup</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/news</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/about</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/custom-themes</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/navigation/</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/news/svelteit-v1.0.0-alpha.1</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/navigation/.</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.svelteit.dev/news/.</loc>
+  <lastmod>2020-04-03T04:33:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

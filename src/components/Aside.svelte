@@ -408,4 +408,13 @@
       </div>
     </Accordion>
   </Accordions>
+
+  <a href="showcase" />
+  <a href="sapper" />
+  <a href="svelte" />
+  <a href="webpack" />
+  <a href="rollup" />
+  <a href="news" />
+  <a href="about" />
+  <a href="custom-themes" />
 </nav>
