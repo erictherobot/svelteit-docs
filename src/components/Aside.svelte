@@ -9,11 +9,6 @@
       title: 'Home',
     },
     {
-      segment: 'about',
-      href: 'about',
-      title: 'About',
-    },
-    {
       segment: 'news',
       href: 'news',
       title: 'News',
@@ -56,6 +51,11 @@
       segment: 'accordions',
       href: 'accordions',
       title: 'Accordions',
+    },
+    {
+      segment: 'badges',
+      href: 'badges',
+      title: 'Badges',
     },
     {
       segment: 'buttons',
@@ -415,7 +415,6 @@
   <a href="webpack" />
   <a href="rollup" />
   <a href="news" />
-  <a href="about" />
   <a href="custom-themes" />
-  <a href="404" />
+  <a href="error" />
 </nav>

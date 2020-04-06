@@ -3,10 +3,7 @@
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
 
-  import { Button, Table } from '@colorfuldots/svelteit'
-
-  let example_button_default_title = 'Default'
-  let example_button_disabled_title = 'Disabled'
+  import { Button, ButtonGroup, Table } from '@colorfuldots/svelteit'
 
   const propTypes = [
     {
@@ -74,17 +71,19 @@
   let title = 'Default'
 </\script>
 
-<Button title={title} />
+<Button>{title}</Button>
 `
 
   // Example Button Disabled
   const example_button_disabled_code = `
 <script>
   import { Button } from '@colorfuldots/svelteit'
-  let title = 'Disabled'
+  let title1 = 'Disabled'
+  let title2 = 'Active'
 </\script>
 
-<Button title={title} success disabled />
+<Button success disabled>{title1}</Button>
+<Button success>{title2}</Button>
 `
 
   // Example Button Solid
@@ -93,14 +92,15 @@
   import { Button } from '@colorfuldots/svelteit'
 </\script>
 
-<Button title={'Primary'} primary />
-<Button title={'Secondary'} secondary />
-<Button title={'Success'} success />
-<Button title={'Danger'} danger />
-<Button title={'Warning'} warning />
-<Button title={'Info'} info />
-<Button title={'Light'} light />
-<Button title={'Dark'} dark />
+<Button>Default</Button>
+<Button primary>Primary</Button>
+<Button secondary>Secondary</Button>
+<Button success>Success</Button>
+<Button danger>Danger</Button>
+<Button warning>Warning</Button>
+<Button info>Info</Button>
+<Button light>Light</Button>
+<Button dark>Dark</Button>
 `
 
   // Example Button Outlined
@@ -109,14 +109,15 @@
   import { Button } from '@colorfuldots/svelteit'
 </\script>
 
-<Button title={'Primary'} primary outlined />
-<Button title={'Secondary'} secondary outlined />
-<Button title={'Success'} success outlined />
-<Button title={'Danger'} danger outlined />
-<Button title={'Warning'} warning outlined />
-<Button title={'Info'} info outlined />
-<Button title={'Info'} light outlined />
-<Button title={'Info'} dark outlined />
+<Button>Default</Button>
+<Button primary outlined>Primary</Button>
+<Button secondary outlined>Secondary</Button>
+<Button success outlined>Success</Button>
+<Button danger outlined>Danger</Button>
+<Button warning outlined>Warning</Button>
+<Button info outlined>Info</Button>
+<Button light outlined>Light</Button>
+<Button dark outlined>Dark</Button>
 `
 
   // Example Button Outlined
@@ -125,14 +126,14 @@
   import { Button } from '@colorfuldots/svelteit'
 </\script>
 
-<Button title={'Small'} primary small />
-<Button title={'Medium'} secondary medium />
-<Button title={'Default'} success />
-<Button title={'Large'} danger large />
-<Button title={'Small'} warning outlined small />
-<Button title={'Medium'} info outlined medium />
-<Button title={'Default'} light outlined />
-<Button title={'Large'} dark outlined large />
+<Button primary outlined small>Small</Button>
+<Button secondary outlined medium>Medium</Button>
+<Button success outlined>Default</Button>
+<Button danger outlined large>Large</Button>
+<Button warning small>Small</Button>
+<Button info medium>Medium</Button>
+<Button light>Default</Button>
+<Button dark large rounded>Large</Button>
 `
   // Example Button Outlined
   const example_button_rounded_code = `
@@ -140,14 +141,14 @@
   import { Button } from '@colorfuldots/svelteit'
 </\script>
 
-<Button title={'Small'} primary rounded />
-<Button title={'Medium'} secondary rounded />
-<Button title={'Default'} success rounded />
-<Button title={'Large'} danger rounded />
-<Button title={'Small'} warning outlined rounded />
-<Button title={'Medium'} info outlined rounded />
-<Button title={'Default'} light outlined rounded />
-<Button title={'Large'} dark outlined rounded />
+<Button primary rounded>Primary</Button>
+<Button secondary rounded>Secondary</Button>
+<Button success rounded>Success</Button>
+<Button danger rounded>Danger</Button>
+<Button warning outlined rounded>Warning</Button>
+<Button info outlined rounded>Info</Button>
+<Button light outlined rounded>Light</Button>
+<Button dark outlined rounded>Dark</Button>
 `
   // Example Button Outlined
   const example_button_block_code = `
@@ -155,19 +156,152 @@
   import { Button } from '@colorfuldots/svelteit'
 </\script>
 
-<Button title={'Small'} primary block />
-<Button title={'Medium'} secondary block />
-<Button title={'Default'} success block />
-<Button title={'Large'} danger block />
-<Button title={'Small'} warning outlined block />
-<Button title={'Medium'} info outlined block />
-<Button title={'Default'} light outlined block />
-<Button title={'Large'} dark outlined block />
+<Button primary block>Primary</Button>
+<Button secondary block>Secondary</Button>
+<Button success block>Success</Button>
+<Button danger block>Danger</Button>
+<Button warning outlined block>Warning</Button>
+<Button info outlined block>Info</Button>
+<Button light outlined block>Light</Button>
+<Button dark outlined block>Dark</Button>
+`
+
+  // Example Button Outlined
+  const example_button_groups_default_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+<ButtonGroup>
+  <Button>one</Button>
+  <Button>two</Button>
+  <Button>three</Button>
+</ButtonGroup>
+`
+
+  // Example Button Outlined
+  const example_button_groups_dark_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+<ButtonGroup>
+  <Button dark>one</Button>
+  <Button dark>two</Button>
+  <Button dark>three</Button>
+</ButtonGroup>
+`
+
+  // Example Button Outlined
+  const example_button_groups_outlined_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+<ButtonGroup>
+  <Button primary outlined>one</Button>
+  <Button primary outlined>two</Button>
+  <Button primary outlined>three</Button>
+</ButtonGroup>
+`
+
+  // Example Button Outlined
+  const example_button_groups_size_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+ <ButtonGroup>
+  <Button dark small>small</Button>
+  <Button dark small>two</Button>
+  <Button dark small>three</Button>
+</ButtonGroup>
+<ButtonGroup>
+  <Button dark medium>medium</Button>
+  <Button dark medium>two</Button>
+  <Button dark medium>three</Button>
+</ButtonGroup>
+<ButtonGroup>
+  <Button dark>default</Button>
+  <Button dark>two</Button>
+  <Button dark>three</Button>
+</ButtonGroup>
+<ButtonGroup>
+  <Button dark large>large</Button>
+  <Button dark large>two</Button>
+  <Button dark large>three</Button>
+</ButtonGroup>
+`
+
+  // Example Button Outlined
+  const example_button_groups_icon_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+<ButtonGroup>
+  <Button dark>
+    <i class="fa fa-bars" />
+  </Button>
+  <Button dark>
+    <i class="fa fa-trash" />
+  </Button>
+  <Button dark>
+    <i class="fa fa-close" />
+  </Button>
+</ButtonGroup>
+`
+
+  // Example Button Outlined
+  const example_button_groups_icon_label_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+<ButtonGroup>
+  <Button primary>
+    <i class="fa fa-home" />
+    Home
+  </Button>
+  <Button primary>
+    <i class="fa fa-trash" />
+    Delete
+  </Button>
+  <Button primary>
+    <i class="fa fa-close" />
+    Close
+  </Button>
+</ButtonGroup>
+`
+
+  // Example Button Outlined
+  const example_button_groups_icon_label_disabled_code = `
+<script>
+  import { ButtonGroup, Button } from '@colorfuldots/svelteit'
+</\script>
+
+<ButtonGroup>
+  <Button primary>
+    <i class="fa fa-home" />
+    Home
+  </Button>
+  <Button primary disabled>
+    <i class="fa fa-trash" />
+    Delete
+  </Button>
+  <Button primary>
+    <i class="fa fa-close" />
+    Close
+  </Button>
+</ButtonGroup>
 `
 </script>
 
 <svelte:head>
   <title>Buttons - Svelteit Docs</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </svelte:head>
 
 <h2>Buttons</h2>
@@ -176,7 +310,7 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Default</h3>
   <div class="example">
-    <Button title={example_button_default_title} />
+    <Button>Default</Button>
     <Prism language="markup" code={example_button_default_code} />
   </div>
 </div>
@@ -186,9 +320,8 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Disabled</h3>
   <div class="example">
-    <Button title={example_button_disabled_title} success disabled />
-    <Button title={'Active'} success />
-
+    <Button success disabled>Disabled</Button>
+    <Button success>Active</Button>
     <Prism language="markup" code={example_button_disabled_code} />
   </div>
 </div>
@@ -198,14 +331,15 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Solid Colors</h3>
   <div class="example">
-    <Button title={'Primary'} primary />
-    <Button title={'Secondary'} secondary />
-    <Button title={'Success'} success />
-    <Button title={'Danger'} danger />
-    <Button title={'Warning'} warning />
-    <Button title={'Info'} info />
-    <Button title={'Light'} light />
-    <Button title={'Dark'} dark />
+    <Button>Default</Button>
+    <Button primary>Primary</Button>
+    <Button secondary>Secondary</Button>
+    <Button success>Success</Button>
+    <Button danger>Danger</Button>
+    <Button warning>Warning</Button>
+    <Button info>Info</Button>
+    <Button light>Light</Button>
+    <Button dark>Dark</Button>
     <Prism language="markup" code={example_button_solid_code} />
   </div>
 </div>
@@ -215,14 +349,15 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Outlined Colors</h3>
   <div class="example">
-    <Button title={'Primary'} primary outlined />
-    <Button title={'Secondary'} secondary outlined />
-    <Button title={'Success'} success outlined />
-    <Button title={'Danger'} danger outlined />
-    <Button title={'Warning'} warning outlined />
-    <Button title={'Info'} info outlined />
-    <Button title={'Light'} light outlined />
-    <Button title={'Dark'} dark outlined />
+    <Button>Default</Button>
+    <Button primary outlined>Primary</Button>
+    <Button secondary outlined>Secondary</Button>
+    <Button success outlined>Success</Button>
+    <Button danger outlined>Danger</Button>
+    <Button warning outlined>Warning</Button>
+    <Button info outlined>Info</Button>
+    <Button light outlined>Light</Button>
+    <Button dark outlined>Dark</Button>
     <Prism language="markup" code={example_button_outlined_code} />
   </div>
 </div>
@@ -232,14 +367,14 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Sizes</h3>
   <div class="example">
-    <Button title={'Small'} primary small />
-    <Button title={'Medium'} secondary medium />
-    <Button title={'Default'} success />
-    <Button title={'Large'} danger large />
-    <Button title={'Small'} warning outlined small />
-    <Button title={'Medium'} info outlined medium />
-    <Button title={'Default'} light outlined />
-    <Button title={'Large'} dark outlined large />
+    <Button primary outlined small>Small</Button>
+    <Button secondary outlined medium>Medium</Button>
+    <Button success outlined>Default</Button>
+    <Button danger outlined large>Large</Button>
+    <Button warning small>Small</Button>
+    <Button info medium>Medium</Button>
+    <Button light>Default</Button>
+    <Button dark large rounded>Large</Button>
     <Prism language="markup" code={example_button_sizes_code} />
   </div>
 </div>
@@ -249,14 +384,14 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Rounded</h3>
   <div class="example">
-    <Button title={'Primary'} primary rounded />
-    <Button title={'Secondary'} secondary rounded />
-    <Button title={'Success'} success rounded />
-    <Button title={'Danger'} danger rounded />
-    <Button title={'Warning'} warning outlined rounded />
-    <Button title={'Info'} info outlined rounded />
-    <Button title={'Light'} light outlined rounded />
-    <Button title={'Dark'} dark outlined rounded />
+    <Button primary rounded>Primary</Button>
+    <Button secondary rounded>Secondary</Button>
+    <Button success rounded>Success</Button>
+    <Button danger rounded>Danger</Button>
+    <Button warning outlined rounded>Warning</Button>
+    <Button info outlined rounded>Info</Button>
+    <Button light outlined rounded>Light</Button>
+    <Button dark outlined rounded>Dark</Button>
     <Prism language="markup" code={example_button_rounded_code} />
   </div>
 </div>
@@ -266,15 +401,159 @@
 <div class="example-wrapper">
   <h3 class="content-title">Example :: Block Level</h3>
   <div class="example">
-    <Button title={'Primary'} primary block />
-    <Button title={'Secondary'} secondary block />
-    <Button title={'Success'} success block />
-    <Button title={'Danger'} danger block />
-    <Button title={'Warning'} warning outlined block />
-    <Button title={'Info'} info outlined block />
-    <Button title={'Light'} light outlined block />
-    <Button title={'Dark'} dark outlined block />
+    <Button primary block>Primary</Button>
+    <Button secondary block>Secondary</Button>
+    <Button success block>Success</Button>
+    <Button danger block>Danger</Button>
+    <Button warning outlined block>Warning</Button>
+    <Button info outlined block>Info</Button>
+    <Button light outlined block>Light</Button>
+    <Button dark outlined block>Dark</Button>
     <Prism language="markup" code={example_button_block_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">Example :: Button Group</h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button>one</Button>
+      <Button>two</Button>
+      <Button>three</Button>
+    </ButtonGroup>
+    <Prism language="markup" code={example_button_groups_default_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">Example :: Button Group Solid Colors</h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button dark>one</Button>
+      <Button dark>two</Button>
+      <Button dark>three</Button>
+    </ButtonGroup>
+    <Prism language="markup" code={example_button_groups_dark_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">Example :: Button Group Outlined</h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button primary outlined>one</Button>
+      <Button primary outlined>two</Button>
+      <Button primary outlined>three</Button>
+    </ButtonGroup>
+    <Prism language="markup" code={example_button_groups_outlined_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">Example :: Button Group Sizes</h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button dark small>small</Button>
+      <Button dark small>two</Button>
+      <Button dark small>three</Button>
+    </ButtonGroup>
+    <br />
+    <ButtonGroup>
+      <Button dark medium>medium</Button>
+      <Button dark medium>two</Button>
+      <Button dark medium>three</Button>
+    </ButtonGroup>
+    <br />
+    <ButtonGroup>
+      <Button dark>default</Button>
+      <Button dark>two</Button>
+      <Button dark>three</Button>
+    </ButtonGroup>
+    <br />
+    <ButtonGroup>
+      <Button dark large>large</Button>
+      <Button dark large>two</Button>
+      <Button dark large>three</Button>
+    </ButtonGroup>
+    <Prism language="markup" code={example_button_groups_size_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">Example :: Button Group Icons</h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button dark>
+        <i class="fa fa-bars" />
+      </Button>
+      <Button dark>
+        <i class="fa fa-trash" />
+      </Button>
+      <Button dark>
+        <i class="fa fa-close" />
+      </Button>
+    </ButtonGroup>
+    <Prism language="markup" code={example_button_groups_icon_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">Example :: Button Group Icons + Label</h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button primary>
+        <i class="fa fa-home" />
+        Home
+      </Button>
+      <Button primary>
+        <i class="fa fa-trash" />
+        Delete
+      </Button>
+      <Button primary>
+        <i class="fa fa-close" />
+        Close
+      </Button>
+    </ButtonGroup>
+    <Prism language="markup" code={example_button_groups_icon_label_code} />
+  </div>
+</div>
+<!-- END EXAMPLE -->
+
+<!-- START EXAMPLE -->
+<div class="example-wrapper">
+  <h3 class="content-title">
+    Example :: Button Group Icons + Label + Disabled
+  </h3>
+  <div class="example">
+    <ButtonGroup>
+      <Button primary>
+        <i class="fa fa-home" />
+        Home
+      </Button>
+      <Button primary disabled>
+        <i class="fa fa-trash" />
+        Delete
+      </Button>
+      <Button primary>
+        <i class="fa fa-close" />
+        Close
+      </Button>
+    </ButtonGroup>
+    <Prism
+      language="markup"
+      code={example_button_groups_icon_label_disabled_code} />
   </div>
 </div>
 <!-- END EXAMPLE -->

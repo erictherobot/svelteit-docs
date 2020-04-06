@@ -2,8 +2,8 @@
   import Prism from '../components/PrismJS.svelte'
   import PropsTable from '../components/PropsTable.svelte'
   import Description from '../components/Description.svelte'
-  import { Modal, Table } from '@colorfuldots/svelteit'
-  import Content from './Content.svelte'
+  import { Modal } from '@colorfuldots/svelteit'
+  import ModalContent from '../Modals/ModalContent.svelte'
 
   const propTypes = [
     {
@@ -60,7 +60,7 @@
   // Example Alert Default
   const example_navigation_default_code = `
 <script>
-    import { Navigation } from '@colorfuldots/svelteit'
+  import { Modal } from '@colorfuldots/svelteit'
 </\script>
 
 <Modal />
@@ -75,17 +75,15 @@
 
 <!-- START EXAMPLE -->
 <div class="example-wrapper">
-  <h3 class="content-title">Examples</h3>
+  <h3 class="content-title">Examples :: Modals</h3>
   <div class="example">
     <Modal>
-      <Content />
+      <ModalContent />
     </Modal>
     <Prism language="markup" code={example_navigation_default_code} />
   </div>
 </div>
 <!-- END EXAMPLE -->
-
-<!-- <PropsTable {propTypes} /> -->
 
 <PropsTable {propTypes} soon />
 

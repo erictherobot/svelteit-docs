@@ -6,6 +6,7 @@
   import Popup from './Popup.svelte'
   import PopupLong from './PopupLong.svelte'
   import Dialog from './Dialog.svelte'
+  import Form from './Form.svelte'
 
   const { open } = getContext('svelteit-modal')
 
@@ -41,7 +42,7 @@
         },
         transitionWindow: fly,
         transitionWindowProps: {
-          y: 100,
+          y: 50,
         },
       }
     )
@@ -76,12 +77,29 @@
       }
     )
   }
+  const showForm = () => {
+    open(
+      Form,
+      {
+        message: 'Questions...',
+        hasForm: true,
+        onCancel,
+        onOkay,
+      },
+      {
+        closeButton: false,
+        closeOnEsc: false,
+        closeOnOuterClick: false,
+      }
+    )
+  }
 </script>
 
-<Button title={'Basic'} on:click={showPopup} primary outlined />
-<Button title={'Scrollable'} on:click={showPopupLong} primary outlined />
-<Button title={'Custom'} on:click={showPopupCustom} primary outlined />
-<Button title={'Dialog'} on:click={showDialog} primary outlined />
+<Button on:click={showPopup} primary outlined>Basic</Button>
+<Button on:click={showPopupLong} primary outlined>Scrollable</Button>
+<Button on:click={showPopupCustom} primary outlined>Custom</Button>
+<Button on:click={showDialog} primary outlined>Dialog</Button>
+<Button on:click={showForm} primary outlined>Form</Button>
 
 {#if status === 1}
   <h3>Hi, {name}</h3>

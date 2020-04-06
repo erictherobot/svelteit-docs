@@ -23,49 +23,49 @@
 
 <Container>
   <Row>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
-    <Column class="col bgcolorex">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
+    <Column class="col">col</Column>
   </Row>
   <Row>
-    <Column class="col-2 bgcolorex">col-2</Column>
-    <Column class="col-2 bgcolorex">col-2</Column>
-    <Column class="col-2 bgcolorex">col-2</Column>
-    <Column class="col-2 bgcolorex">col-2</Column>
-    <Column class="col-2 bgcolorex">col-2</Column>
-    <Column class="col-2 bgcolorex">col-2</Column>
+    <Column class="col-2">col-2</Column>
+    <Column class="col-2">col-2</Column>
+    <Column class="col-2">col-2</Column>
+    <Column class="col-2">col-2</Column>
+    <Column class="col-2">col-2</Column>
+    <Column class="col-2">col-2</Column>
   </Row>
   <Row>
-    <Column class="col-3 bgcolorex">col-3</Column>
-    <Column class="col-3 bgcolorex">col-3</Column>
-    <Column class="col-3 bgcolorex">col-3</Column>
-    <Column class="col-3 bgcolorex">col-3</Column>
+    <Column class="col-3">col-3</Column>
+    <Column class="col-3">col-3</Column>
+    <Column class="col-3">col-3</Column>
+    <Column class="col-3">col-3</Column>
   </Row>
   <Row>
-    <Column class="col-4 bgcolorex">col-4</Column>
-    <Column class="col-4 bgcolorex">col-4</Column>
-    <Column class="col-4 bgcolorex">col-4</Column>
+    <Column class="col-4">col-4</Column>
+    <Column class="col-4">col-4</Column>
+    <Column class="col-4">col-4</Column>
   </Row>
   <Row>
-    <Column class="col-2 bgcolorex">col-2</Column>
-    <Column class="col-5 bgcolorex">col-5</Column>
-    <Column class="col-5 bgcolorex">col-5</Column>
+    <Column class="col-2">col-2</Column>
+    <Column class="col-5">col-5</Column>
+    <Column class="col-5">col-5</Column>
   </Row>
   <Row>
-    <Column class="col-6 bgcolorex">col-6</Column>
-    <Column class="col-6 bgcolorex">col-6</Column>
+    <Column class="col-6">col-6</Column>
+    <Column class="col-6">col-6</Column>
   </Row>
   <Row>
-    <Column class="col bgcolorex">col</Column>
+    <Column class="col">col</Column>
   </Row>
 </Container>
 `
@@ -78,14 +78,14 @@
 
 <Container>
   <Row>
-    <Column class="col bgcolorex">Header</Column>
+    <Column class="col">Header</Column>
   </Row>
   <Row>
     <Column class="col-sm-4">Side Bar</Column>
     <Column class="col-sm-8">Content</Column>
   </Row>
   <Row>
-    <Column class="col bgcolorex">Footer</Column>
+    <Column class="col">Footer</Column>
   </Row>
 </Container>
 `
@@ -98,7 +98,7 @@
 
 <Container>
   <Row>
-    <Column class="col bgcolorex">Header</Column>
+    <Column class="col">Header</Column>
   </Row>
   <Row>
     <Column class="col-sm-2">Side Bar</Column>
@@ -109,7 +109,7 @@
     </Column>
   </Row>
   <Row>
-    <Column class="col bgcolorex">Footer</Column>
+    <Column class="col">Footer</Column>
   </Row>
 </Container>
 `

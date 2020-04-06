@@ -83,69 +83,6 @@
   the best use of a component, but then again, maybe it is. It's up to you,
   but we decided to include it into our framework." />
 `
-  // Example
-  const example_label_code = `
-<script>
-  import { Badge } from '@colorfuldots/svelteit'
-</\script>
-
-<Badge label="Exciting" primary />
-<Badge label="Stale" secondary />
-<Badge label="New" success />
-<Badge label="Deprecated" danger />
-<Badge label="Old" warning />
-<Badge label="Breaking News" info />
-<Badge label="Cool" light />
-<Badge label="Fun" dark />
-`
-
-  // Example
-  const example_label_outlined_code = `
-<script>
-  import { Badge } from '@colorfuldots/svelteit'
-</\script>
-
-<Badge label="Exciting" primary outlined />
-<Badge label="Stale" secondary outlined />
-<Badge label="New" success outlined />
-<Badge label="Deprecated" danger outlined />
-<Badge label="Old" warning outlined />
-<Badge label="Breaking News" info outlined />
-<Badge label="Cool" light outlined />
-<Badge label="Fun" dark outlined />
-`
-
-  // Example
-  const example_badge_code = `
-<script>
-  import { Badge } from '@colorfuldots/svelteit'
-</\script>
-
-<Badge badge={10} primary />
-<Badge badge={20} secondary />
-<Badge badge={30} success />
-<Badge badge={40} danger />
-<Badge badge={50} warning />
-<Badge badge={60} info />
-<Badge badge={70} light />
-<Badge badge={80} dark />
-`
-
-  // Example
-  const example_badge_outlined_code = `
-<script>
-  import { Badge } from '@colorfuldots/svelteit'
-</\script>
-
-<Badge badge={10} primary outlined />
-<Badge badge={20} secondary outlined />
-<Badge badge={30} success outlined />
-<Badge badge={40} danger outlined />
-<Badge badge={50} warning outlined />
-<Badge badge={60} info outlined />
-<Badge badge={70} light outlined />
-<Badge badge={80} dark outlined />
-`
 </script>
 
 <svelte:head>
@@ -182,75 +119,7 @@
 </div>
 <!-- END EXAMPLE -->
 
-<!-- START EXAMPLE -->
-<div class="example-wrapper">
-  <h3 class="content-title">Example :: Labels</h3>
-  <div class="example">
-    <Badge label="Exciting" primary />
-    <Badge label="Stale" secondary />
-    <Badge label="New" success />
-    <Badge label="Deprecated" danger />
-    <Badge label="Old" warning />
-    <Badge label="Breaking News" info />
-    <Badge label="Cool" light />
-    <Badge label="Fun" dark />
-    <Prism language="markup" code={example_label_code} />
-  </div>
-</div>
-<!-- END EXAMPLE -->
-
-<!-- START EXAMPLE -->
-<div class="example-wrapper">
-  <h3 class="content-title">Example :: Outlined Labels</h3>
-  <div class="example">
-    <Badge label="Exciting" primary outlined />
-    <Badge label="Stale" secondary outlined />
-    <Badge label="New" success outlined />
-    <Badge label="Deprecated" danger outlined />
-    <Badge label="Old" warning outlined />
-    <Badge label="Breaking News" info outlined />
-    <Badge label="Cool" light outlined />
-    <Badge label="Fun" dark outlined />
-    <Prism language="markup" code={example_label_outlined_code} />
-  </div>
-</div>
-<!-- END EXAMPLE -->
-
-<!-- START EXAMPLE -->
-<div class="example-wrapper">
-  <h3 class="content-title">Example :: Badges</h3>
-  <div class="example">
-    <Badge badge={10} primary />
-    <Badge badge={20} secondary />
-    <Badge badge={30} success />
-    <Badge badge={40} danger />
-    <Badge badge={50} warning />
-    <Badge badge={60} info />
-    <Badge badge={70} light />
-    <Badge badge={80} dark />
-    <Prism language="markup" code={example_badge_code} />
-  </div>
-</div>
-<!-- END EXAMPLE -->
-
-<!-- START EXAMPLE -->
-<div class="example-wrapper">
-  <h3 class="content-title">Example :: Outlined Badges</h3>
-  <div class="example">
-    <Badge badge={10} primary outlined />
-    <Badge badge={20} secondary outlined />
-    <Badge badge={30} success outlined />
-    <Badge badge={40} danger outlined />
-    <Badge badge={50} warning outlined />
-    <Badge badge={60} info outlined />
-    <Badge badge={70} light outlined />
-    <Badge badge={80} dark outlined />
-    <Prism language="markup" code={example_badge_outlined_code} />
-  </div>
-</div>
-<!-- END EXAMPLE -->
-
-<PropsTable {propTypes} />
+<PropsTable {propTypes} soon />
 
 <Description
   title="Typography"

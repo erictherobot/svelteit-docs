@@ -6,8 +6,8 @@ pre[class*='language-'] {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-  font-size: 0.9em;
-  line-height: 1.2em;
+  font-size: unset;
+  line-height: 1.5;
 
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -20,7 +20,7 @@ pre[class*='language-'] {
 }
 
 pre > code[class*='language-'] {
-  font-size: 1em;
+  font-size: 0.88rem;
 }
 
 pre[class*='language-']::-moz-selection,
@@ -39,7 +39,7 @@ code[class*='language-'] ::selection {
 
 /* Code blocks */
 pre[class*='language-'] {
-  padding: 1em;
+  padding: 1rem;
   margin: 0.5em 0 0;
   overflow: auto;
 
@@ -49,7 +49,7 @@ pre[class*='language-'] {
 
 /* Inline code */
 :not(pre) > code[class*='language-'] {
-  padding: 0.2em;
+  padding: 0.2rem;
   padding-top: 1px;
   padding-bottom: 1px;
   background: #f8f8f8;
@@ -172,9 +172,12 @@ code[class*='language-css'] {
 
 /* DOCS EXAMPLE WRAPPER */
 .example {
-  padding: 0.5em;
-  margin: 0.5em 0;
+  padding: 1.2rem;
+  margin: 0.5rem auto;
   overflow: auto;
   border: 1px dotted #9b70ff;
   background-color: rgba(229, 215, 255, 0);
+  &:hover {
+    box-shadow: inset 0 0 0 $primary, 0px 10px 15px -10px lighten($primary, 20);
+  }
 }

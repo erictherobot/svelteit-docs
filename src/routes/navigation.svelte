@@ -360,7 +360,7 @@
 </svelte:head>
 
 <h2>Navigation</h2>
-<hr />
+<!-- <hr />
 <strong>Components:</strong>
 <ul>
   <li>
@@ -387,7 +387,7 @@
   <li>
     <a href="/navigation/#description">Description</a>
   </li>
-</ul>
+</ul> -->
 
 <!-- START EXAMPLE -->
 <div class="example-wrapper">
@@ -613,7 +613,7 @@
 <!-- END EXAMPLE -->
 
 <a href="javascript:void(0);" name="api" class="anchor">#</a>
-<PropsTable {propTypes} />
+<PropsTable {propTypes} soon />
 
 <a href="javascript:void(0);" name="description" class="anchor">#</a>
 <Description

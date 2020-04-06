@@ -67,7 +67,7 @@
     want. Add more content as much as you want. Add more content as much as
     you want. Add more content as much as you want.
   </p>
-  <Button light outlined title="Button" />
+  <Button light rounded>Button</Button>
 </Alert>
 `
 
@@ -189,7 +189,7 @@
         want. Add more content as much as you want. Add more content as much as
         you want. Add more content as much as you want.
       </p>
-      <Button light outlined title="Button" />
+      <Button light rounded>Button</Button>
     </Alert>
     <Prism language="markup" code={example_alert_content_code} />
   </div>
