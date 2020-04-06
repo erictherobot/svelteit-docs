@@ -23,7 +23,7 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/runtime": "^7.0.0",
-    "@colorfuldots/svelteit": "^1.0.0-alpha.6",
+    "@colorfuldots/svelteit": "^1.0.0-alpha.7",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-replace": "^2.2.0",

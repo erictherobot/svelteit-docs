@@ -752,10 +752,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@colorfuldots/svelteit@^1.0.0-alpha.6":
-  version "1.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@colorfuldots/svelteit/-/svelteit-1.0.0-alpha.6.tgz#fc9638f11afd3d36f8bc5e22f9bb6b575b0d483b"
-  integrity sha512-z/i94KkJjqgjNWejOsGIMnZ+geSDFa+5LXs7qcBiv4y2jiK8Pm+GSjmOnvtLoGVwfXkLWjnwpoVAzDXHGzjU7A==
+"@colorfuldots/svelteit@^1.0.0-alpha.7":
+  version "1.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@colorfuldots/svelteit/-/svelteit-1.0.0-alpha.7.tgz#f4feeed01fe7cd91ae532c89985862a4af8c9d62"
+  integrity sha512-k2Ls64X6TIGaDpQpPlEXuvlkXhQVkC/6sJmgi9hzgn+ty8hMsxf2fINvMTtlywRDtqqMkH/DbFlUbEv9kzQkRw==
   dependencies:
     svelte-css-vars "0.0.1"
 
