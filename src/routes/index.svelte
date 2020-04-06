@@ -25,14 +25,9 @@ yarn add @colorfuldots/svelteit --dev`
   <title>Svelteit - Svelteit Docs</title>
 </svelte:head>
 <article>
-  <h2>
-    Svelte
-    <em>it</em>
-  </h2>
+  <h2>Svelteit</h2>
   <p>
-    Svelte
-    <em>it</em>
-    is a minimalistic UI/UX component framework for
+    Svelteit is a minimalistic UI/UX component framework for
     <a href="https://svelte.dev">Svelte</a>
     and
     <a href="https://sapper.svelte.dev">Sapper</a>
