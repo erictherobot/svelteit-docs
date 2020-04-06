@@ -68,7 +68,7 @@
   </section>
   <section>
     <ul>
-      <li>v1.0.0-alpha.6</li>
+      <li>v1.0.0-alpha.7</li>
       <li>
         <a href="https://github.com/erictherobot/svelteit">Github</a>
       </li>

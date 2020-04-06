@@ -12,6 +12,18 @@ const posts = [
       <p>Happy Coding!</p>
 		`,
   },
+  {
+    title: 'Svelteit v1.0.0-alpha.7',
+    slug: 'svelteit-v1.0.0-alpha.7',
+    date: '04-06-2020',
+    html: `
+      <p>Svelteit version v1.0.0-alpha.7 is released today. This release fixes several bugs and adds new components: ButtonGroup, Badges, Labels, as well as refactored Buttons and Lists components.</p>
+
+      <p>We've also made it possible to import our components all together instead of individually by doing the following: import { Svelteit } from '@colorfuldots/svelteit' and then adding your component like so: <Svelteit.Button>Button Title</Svelteit.Button> - this option is backwards compatibility with your existing individual component imports like import { Button } from '@colorfuldots/svelteit'. </p>
+      
+      <p>Happy Coding!</p>
+		`,
+  },
 ]
 
 posts.forEach(post => {
