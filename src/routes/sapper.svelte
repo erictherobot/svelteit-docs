@@ -36,11 +36,11 @@ yarn add @colorfuldots/svelteit --dev`
   <Prism
     language="bash"
     code={`
-npm install -D autoPreprocess node-sass
+npm install -D svelte-preprocess node-sass
 
 # or if you prefer yarn
 
-yarn add autoPreprocess node-sass --dev
+yarn add svelte-preprocess node-sass --dev
 `} />
 
   <p>
