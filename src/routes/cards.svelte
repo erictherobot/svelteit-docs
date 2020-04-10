@@ -172,6 +172,8 @@
   <Button success rounded medium outlined>I have a button, Baby!</Button>
 </Card>
 
+<!-- OR you could do it like this -->
+
 <Card
   title="I have a title"
   description="I have a description" 
