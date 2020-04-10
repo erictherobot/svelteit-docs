@@ -27,7 +27,7 @@ yarn add @colorfuldots/svelteit --dev`
 <article>
   <h2>Svelteit</h2>
   <p>
-    Svelteit is a minimalistic UI/UX component framework for
+    Svelteit is a minimalistic UI/UX component library for
     <a href="https://svelte.dev">Svelte</a>
     and
     <a href="https://sapper.svelte.dev">Sapper</a>
@@ -35,7 +35,7 @@ yarn add @colorfuldots/svelteit --dev`
   </p>
   <h3>Why?</h3>
   <p>
-    Yes, there are many component frameworks out there today, but we wanted our
+    Yes, there are many component libraries out there today, but we wanted our
     own. If you like our components, use it. If you see a problem, make a pull
     request or fork your own and roll with it.
   </p>

@@ -81,7 +81,7 @@
 <Typography
   p="This is a paragraph, it can have a bunch of text in it. It's not really
   the best use of a component, but then again, maybe it is. It's up to you,
-  but we decided to include it into our framework." />
+  but we decided to include it into our library." />
 `
 </script>
 
@@ -113,7 +113,7 @@
     <Typography
       p="This is a paragraph, it can have a bunch of text in it. It's not really
       the best use of a component, but then again, maybe it is. It's up to you,
-      but we decided to include it into our framework." />
+      but we decided to include it into our library." />
     <Prism language="markup" code={example_typography_paragraph_code} />
   </div>
 </div>

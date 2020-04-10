@@ -2,11 +2,11 @@
 
 <a align="center" href="https://docs.svelteit.dev"><img width="100%" src="./static/Svelteit-github@3x.png"></a>
 
-Svelteit is a minimalistic UI/UX component framework for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
+Svelteit is a minimalistic UI/UX component library for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
 
 ### Why?
 
-Yes, there are many component frameworks out there today, but we wanted our own. If you like our components, use it. If you see a problem, make a pull request or fork your own and roll with it.
+Yes, there are many component libraries out there today, but we wanted our own. If you like our components, use it. If you see a problem, make a pull request or fork your own and roll with it.
 
 ### Contributing
 
