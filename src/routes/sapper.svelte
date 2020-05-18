@@ -57,7 +57,7 @@ import autoPreprocess from 'svelte-preprocess'
 `} />
   <p>
     <b>3.</b>
-    Now add the following config to both the client and server sections like so:
+    Now in the same rollup.config.js add the following config to both the client and server sections like so:
   </p>
 
   <Prism
@@ -67,9 +67,24 @@ svelte({
   dev,
   hydratable: true,
   emitCss: true,
-  preprocess: autoPreprocess(), <<----- ADD THIS TO CLIENT AND SERVER
+  preprocess: autoPreprocess(), <<----- ADD THIS TO CLIENT
 }),
 `} />
+  
+  <p>
+    and for the server section like so:
+  </p>
+  
+    <Prism
+    language="javascript"
+    code={`
+svelte({
+        generate: "ssr",
+        preprocess: autoPreprocess(), <<----- ADD THIS TO SERVER
+        dev,
+      }),
+`} />
+  
   <p>
     <b>4.</b>
     Add your components of choice in your index.svelte or other files where
