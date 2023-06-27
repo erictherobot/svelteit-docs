@@ -1,6 +1,6 @@
 # Svelte<em>it</em> Documentation
 
-<a align="center" href="https://docs.svelteit.dev"><img width="100%" src="./static/Svelteit-github@3x.png"></a>
+<a href="https://docs.svelteit.dev"><img width="100%" src="./static/Svelteit-github@3x.png"></a>
 
 Svelteit is a minimalistic UI/UX component library for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
 
